@@ -1,90 +1,109 @@
-# Titulo principal
-> linha divisória abaixo:
+# Main Title
+\# Main Title
+## subtitle
+\## subtitle
+### subsubtitle
+\### subsubtitle
 
 ---
-*** 
+\---
+***
+\***
 
-## subtitulo
-### subsubtitulo
+> Citations
 
-Texto
-Destacado
+\> Citations
+
+Emphasis
+Text
 ---
 
-**negrito** ou __negrito__
-*italico* ou _italioc_
-~~riscado~~
+## Text Formatting
 
-> texto escurecido
+| Formatted | Code |
+| ---: | :--- |
+**Bold** ou __Bold__ | \*\*Bold** ou \_\_Bold__
+*Italic* ou _Italic_ | \*Italic* ou \_Italic_
+~~strike~~ | \~\~strike~~
+~hmm~ | \~hmm~
 
 ## Links
-[texto](url)
-[tópico](#Tabelas)
+[what u need](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
-## Imagens
-![nome/descrição](url)
+[Topic](#Marcações)
 
-## Listas
+## Images
+![name/description](https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AMarkdown-mark.svg&psig=AOvVaw2ysOCICui1JEdUP3AJVKog&ust=1678382934300000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCe_fztzP0CFQAAAAAdAAAAABBJ)
 
-### Lista numerada
-1. topico 1
-   1. topico 1.1 
-1. topico 2
-   
-### Lista pontinhos
-* topico 1
-* topico 2
-   * topico 2.1
-* topico 3
+## Lists
 
-ou 
-- topico 1
-- topico 2
-   - topico 2.1
-- topico 3
+### Enumerated List
+1. topic 1
+   1. topic 1.1 
+1. topic 2
+
+### Dotted List
+* topic 1
+* topic 2
+   * topic 2.1
+* topic 3
+#### or 
+- topic 1
+- topic 2
+   - topic 2.1
+- topic 3
   
-### Lista de tarefas
-- [ ] topico 1
-- [ ] topico 2
-- [x] topico 3
+### To-do List
+- [ ] topic 1
+- [ ] topic 2
+- [x] topic 3
 
-## Tabelas
+## Tables
 col1 | col2 | col3
 :---|:---:|---:
 1|2|3
 a|b|c
 A|B|C
 
---- Formatação padrão (alinhamento à esquerda)
-:--- Alinhamento à esquerda
-:---: Conteúdo Centralizado
----: Alinhamento à direita
+--- Default formatting (align left)
+:--- Left alignment
+:---: Center alignment
+---: Right alignment
 
-## Trechos de Códigos
-`comando`
-
-```Códigos (comandos com Enter dentro?)```
+## Codes
+`command`
 
 ```
-Info Incomplet.
+Code
+Command sequence
 ```
-
-## Issues
-Também podemos mencionar Issues e Pull Requests de nosso repositório usando o símbolo de # seguido do número do elemento (sem espaços).
-#3
 
 ## Emojis
-[repositorio](github.com/ikatyang/emoji-cheat-sheet) com os nomes dos emojis
-:nomeEmoji
-:hand
+this [repository](github.com/ikatyang/emoji-cheat-sheet) contains several emojis and their codes.
 
-# Símbolos
-Podemos criar títulos usando \# antes do texto
-Podemos criar citações usando \> antes do conteúdo
-Podemos adicionar imagens usando \!\[descrição]\(endereço) 
+#### Example:
+:EmojiName:
 
+:star_struck:
 
-## Marcações
+# Symbols
+We can write symbols and md commands by adding \ in front:
+- \ + # = \#
+- \ + > = \>
+- \ + [text] + \ + (url)= \\[text]\(url)
+- And more
+
+## Markings
+### Issues
+We can mention Issues and Pull Requests from our repositories using the # symbol followed by the element number (no spaces):
+
+#3
+
+We can tag people with @:
+
 @Propato
+
+## Developer
+
 | [<img src="https://user-images.githubusercontent.com/84464307/192128888-d0e9a3ba-dbc6-41ee-8215-bd747bf83bfd.jpg" width=115 alt="Minha foto de perfil"><br><sub>David Cristian M Propato</sub>](https://github.com/Propato) |
 | :---: |
