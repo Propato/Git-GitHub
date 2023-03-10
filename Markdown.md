@@ -1,9 +1,15 @@
 # Main Title
 \# Main Title
-## subtitle
-\## subtitle
-### subsubtitle
-\### subsubtitle
+## Subtitle
+\## Subtitle
+
+Subtitle
+---
+Subtitle
+\---
+
+### Subsubtitle
+\### Subsubtitle
 
 ---
 \---
@@ -14,9 +20,6 @@
 
 \> Citations
 
-Emphasis
-Text
----
 
 ## Text Formatting
 
@@ -33,7 +36,8 @@ Text
 [Topic](#Marcações)
 
 ## Images
-![name/description](https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AMarkdown-mark.svg&psig=AOvVaw2ysOCICui1JEdUP3AJVKog&ust=1678382934300000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCe_fztzP0CFQAAAAAdAAAAABBJ)
+![name/description](https://user-images.githubusercontent.com/84464307/224217289-cf8a5748-decf-45c6-b8d8-58a55fe63fba.png)
+<img src="https://user-images.githubusercontent.com/84464307/224217289-cf8a5748-decf-45c6-b8d8-58a55fe63fba.png" width=200 alt="Github Icon">
 
 ## Lists
 
