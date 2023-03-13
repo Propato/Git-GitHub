@@ -96,3 +96,21 @@ Command | Description
 `git checkout -b <branch name>` | Create a new branch
 `git branch -d <branch>` | Delete branch
 `git branch -M main` | Move/rename the active branch
+
+## Git Fetch
+
+Command | Description
+:---: | ---
+`git fetch` | updates the local repository with the latest information from the remote repository, but without modifying the local files
+
+## Git Merge
+
+Command | Description
+:---: | ---
+`git merge` | Join two or more development histories together
+
+## Git Rebase
+
+Command | Description
+:---: | ---
+`git Rebase` | Reapply commits on top of another base tip
