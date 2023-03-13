@@ -63,15 +63,35 @@ Command | Description
 :---: | ---
 `git diff [<options>] <commit> <commit>` | Show changes between the commits
 
+## Git Log
+
+Command | Description
+:---: | ---
+`git log` | shows commit history, press q to quit
+`git log --oneline` | shows simplefy commit history, press q to quit
+
+## Git Checkout
+
+Command | Description
+:---: | ---
+`git checkout <commit id>` | Access the commit by modifying the working tree and the history
+`git checkout <branch>` | Access last commit of the branch
+
+## Git Revert
+
+Command | Description
+:---: | ---
+`git revert <commit id>` | Reverts the working tree to the commit and make a new commit with this working tree, dont deleted history
+
 ## Git Reset
 
 Command | Description
 :---: | ---
 `git reset` | Reset staged files/Undo add (resets the indexes but not the file changes)
 `git reset -- <file name>` | Reset the staged file/Undo add in the file
-`git reset HEAD^` | Undo commit and add (resets the indexes but not the working tree)
-`git reset --soft HEAD^` | Undo commit (dont resets the indexes and the working tree)
-`git reset --hard HEAD` | Undo commit and add (resets the indexes and the working tree)
+`git reset <commit id>` | Undo commits and add up to the given commit (resets the indexes but not the working tree)
+`git reset --soft <commit id>` | Undo commits up to the given commit (dont resets the indexes and the working tree)
+`git reset --hard <commit id>` | Undo commits and add up to the given commit (resets the indexes and the working tree)
 
 > reset working tree == remove changes in the tracked files
 > reset index == reset adds
