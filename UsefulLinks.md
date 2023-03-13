@@ -7,6 +7,7 @@
 ## Icons of programming languages and tools
 
 [DevIcon](https://devicon.dev/)
+
 [Repository DevIcon](https://github.com/devicons/devicon.git)
 
 [vscode-icons](https://github.com/vscode-icons/vscode-icons)
@@ -14,6 +15,8 @@
 ## ReadMe Badge
 
 [Shields.io](https://shields.io/)
+
+[Ileriayo\/markdown-badges](https://github.com/Ileriayo/markdown-badges.git)
 
 ## ReadMe Stats
 
