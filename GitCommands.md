@@ -2,6 +2,13 @@
 
 Here are some useful git commands that I use, and these notes help me to always have access to them and I hope they can help anyone in need.
 
+## Dictionary
+
+Keywords | Description
+:---: | ---
+HEAD | pointer for the last commit
+HEAD^ | HEAD's previous commit, the more "^" further we go back in the sequence of commits
+
 ## Init and Configure
 
 Command | Description
@@ -9,42 +16,78 @@ Command | Description
 `git init` | Start the Git folder
 `git remote add <name> <url>` | Create a connection between local repository and online repository and name it
 `git remote rename <old> <new>` | Rename connection between local repository and online repository
-` git remote remove <name>` | Remove connection between local repository and online repository
+`git remote remove <name>` | Remove connection between local repository and online repository
 
 ## Git Add
+
 Command | Description
 :---: | ---
 `git add -A` | Stage all files (new, modified and deleted)
 `git add *` | Stage all files (except beginning with a dot)
 `git add .` | Stage new and modified files only
 `git add -u` | Stage modified and deleted files only
+`git reset` | Reset staged files/Undo add
 
 All respect .gitignore, but * throws an error.
 
 ## Git Commit
+
 Command | Description
 :---: | ---
 `git commit` | Open the commit area and save staged files
 `git commit -m "comentários das alterações"` | save comments and all staged files
-`git commit -am "comentários das alterações"` | Stage modified and deleted files and save comments and all staged files
+`git commit -a` | Stage modified and deleted files and save all staged files
+`git commit --amend` | Save all staged files in the last commit
 
 ## Git Push
+
 Command | Description
 :---: | ---
 `git push origin <remote branch>` | Update the remote branch with the saved current local branch
 `git push -f origin <remote branch>` | -f Allow to update the remote branch that is not an ancestor of the local branch
-`git push -u origin <remote branch>` | Update the remote branch with the saved current local branch and sets the local branch to "track" the remote branch 
+`git push -u origin <remote branch>` | Update the remote branch with the saved current local branch and sets the local branch to "track" the remote branch
 `git push` | Using the "track" from the local branch to remote branch, update all remote branches with saved local branches
 
 ## Git Pull
+
 Command | Description
 :---: | ---
 `git pull origin <remote branch>` | Update the current local branch with the remote branch
-`git pull --allow-unrelated-histories origin <remote branch>` | Update the current local branch with the remote branch, this option allow to merge branches that do not share a common ancestor 
+`git pull --allow-unrelated-histories origin <remote branch>` | Update the current local branch with the remote branch, this option allow to merge branches that do not share a common ancestor
 `git pull --commit origin <remote branch>` | Perform the merge and commit the result
 `git pull` | Update all local branches with corresponding remote branch
 
+## Git Diff
+
+Command | Description
+:---: | ---
+`git diff [<options>] <commit> <commit>` | Show changes between the commits
+
+## Git Reset
+
+Command | Description
+:---: | ---
+`git reset` | Reset staged files/Undo add (resets the indexes but not the file changes)
+`git reset -- <file name>` | Reset the staged file/Undo add in the file
+`git reset HEAD^` | Undo commit and add (resets the indexes but not the working tree)
+`git reset --soft HEAD^` | Undo commit (dont resets the indexes and the working tree)
+`git reset --hard HEAD` | Undo commit and add (resets the indexes and the working tree)
+
+> reset working tree == remove changes in the tracked files
+> reset index == reset adds
+
+## Git Clean
+
+Command | Description
+:---: | ---
+`git clean` | Remove untracked files from the working tree
+`git clean -n` | Show what will be removed
+`git clean -i` | Show what will be removed and clean files interactively from the working tree
+`git clean -f` | Remove untracked files from the working tree by force
+`git clean -d` | Recursively remove untracked directories from the working tree
+
 ## Git Branches
+
 Command | Description
 :---: | ---
 `git branch` | List local branches and which one is active
