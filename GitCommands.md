@@ -2,6 +2,25 @@
 
 Here are some useful git commands that I use, and these notes help me to always have access to them and I hope they can help anyone in need.
 
+## Table of contents
+
+* [Dictionary](#Dictionary)
+* [Init and Configure](#Init-and-Configure)
+* [Git Add](#Git-Add)
+* [Git Commit](#Git-Commit)
+* [Git Push](#Git-Push)
+* [Git Pull](#Git-Pull)
+* [Git Diff](#Git-Diff)
+* [Git Log](#Git-Log)
+* [Git Checkout](#Git-Checkout)
+* [Git Revert](#Git-Revert)
+* [Git Reset](#Git-Reset)
+* [Git Clean](#Git-Clean)
+* [Git Branches](#Git-Branches)
+* [Git Fetch](#Git-Fetch)
+* [Git Merge](#Git-Merge)
+* [Git Rebase](#Git-Rebase)
+
 ## Dictionary
 
 Keywords | Description
